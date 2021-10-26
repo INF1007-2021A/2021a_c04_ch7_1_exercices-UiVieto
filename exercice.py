@@ -16,7 +16,6 @@ def volume_masse(a, b, c, masse_volumique):
     volume = (4/3) * numpy.pi * a * b * c
 
     # Calcul de la masse
-
     masse = masse_volumique * volume
 
     return (volume, masse)
